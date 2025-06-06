@@ -1,0 +1,90 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoio Emocional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #e0f0ff, #ffffff);
+      color: #003366;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    section {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    section:hover {
+      transform: scale(1.02);
+    }
+    h2 {
+      color: #005fa3;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    ul li {
+      margin-bottom: 0.8rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      color: #555;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Você não está sozinho</h1>
+    <p>Encontre apoio para lidar com ansiedade ou depressão</p>
+  </header>  <main>
+    <section>
+      <h2>Se você está tendo uma crise de ansiedade</h2>
+      <ul>
+        <li>Respire fundo e devagar por 4 segundos, segure por 4, solte por 4.</li>
+        <li>Segure um objeto pequeno (como uma chave ou elástico) e concentre-se em sua textura, forma e temperatura por alguns segundos.</li>
+        <li>Se afaste do que estiver causando a crise, se possível.</li>
+        <li>Envie uma mensagem ou ligue para alguém de confiança.</li>
+        <li>Lembre-se: a crise vai passar. Você já superou outras antes.</li>
+      </ul>
+    </section><section>
+  <h2>Se você está lidando com depressão</h2>
+  <ul>
+    <li>Levante-se devagar, troque de roupa e tome um copo de água.</li>
+    <li>Estabeleça uma meta pequena para hoje, como tomar banho ou sair por 10 minutos.</li>
+    <li>Evite se isolar: envie um "oi" para alguém de confiança.</li>
+    <li>Escreva o que está sentindo — você não precisa mostrar a ninguém.</li>
+    <li>Escute uma música leve ou que te traga conforto.</li>
+    <li>Se alimente, mesmo que seja algo pequeno e simples.</li>
+    <li>Evite se julgar — o que você sente é válido e importante.</li>
+    <li>Se puder, procure apoio profissional. Você merece cuidado.</li>
+  </ul>
+</section>
+
+  </main>  <div class="footer">
+    <p>Se estiver em risco, procure ajuda emergencial ou disque 188 (CVV)</p>
+  </div>
+</body>
+</html>
